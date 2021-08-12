@@ -1,0 +1,22 @@
+.box-1{
+/* width: 1000px;
+height: 100px;
+background-color: darkgray;
+position: relative; */
+transition-property: height;
+transition-duration: 2s;
+transition-timing-function: linear;
+}
+
+.box-1:hover{
+height: 200px;
+}
+
+@keyframes slidingBox {
+0% { 
+    transform: scale(1);
+}
+100% { 
+    transform:translateX(200px) scale(2);
+    }
+}
