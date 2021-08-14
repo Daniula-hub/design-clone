@@ -21,7 +21,7 @@ class Nav extends React.Component{
             <div> 
             <nav className="header">
                 <h1> Start Bootstrap </h1>
-                <ul className="nav-links">
+                <ul className={`nav-links` }> 
                     <li>  Services </li>
                     <li>  Portfolio  </li>
                     <li>  About  </li>
@@ -38,7 +38,7 @@ class Nav extends React.Component{
             
 
             <menu className={menuClass}>
-            <ul className="menu-links">
+            <ul className={`menu-links ${menuClass}`}>
                     <li>  Services </li>
                     <li>  Portfolio  </li>
                     <li>  About  </li>

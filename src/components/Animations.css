@@ -7,9 +7,9 @@ transition-property: height;
 transition-duration: 2s;
 transition-timing-function: linear;
 }
-
+/* 
 .box-1:hover{
-height: 200px;
+width: 200px;
 }
 
 @keyframes slidingBox {
@@ -19,4 +19,4 @@ height: 200px;
 100% { 
     transform:translateX(200px) scale(2);
     }
-}
+} */
