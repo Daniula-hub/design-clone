@@ -36,6 +36,7 @@ font-family:  Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, 
 font-size: 40px;
 color: white;
 margin-top: 20px;
+margin-bottom: 20px;
 display: flex;
 justify-content: center;
 font-style: italic;
@@ -120,9 +121,9 @@ width: 400px;
 color: white;
 font-size: 0.75rem;
 font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-text-transform: uppercase;
+/* text-transform: uppercase; */
 font-weight: 700;
-padding-top: 30px;
+padding-top: 0px;
 font-stretch:extra-expanded;
 cursor: pointer  #FFC800;
 }
@@ -134,16 +135,14 @@ top: 0px;
 
 menu{
 width: 100vw;
-height: 200px;
+height: 150px;
 position: relative;
 background-color: #212529;
 top: -500px;
-margin-top: 0;
-padding:0px;
-border: 1px solid gray;
+margin-top: 10;
 box-sizing: border-box;
 transition-property: top;
-transition-duration: 1s;
+transition-duration: 1.5s;
 transition-timing-function: linear;
 }
 
@@ -158,10 +157,6 @@ transition-timing-function: linear;
         display:none;
         overflow: hidden;
     }
-
-    /* .menu-links{
-        display: block;
-    } */
 
    .header{
         background-color: #212529;

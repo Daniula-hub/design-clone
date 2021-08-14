@@ -39,10 +39,14 @@ class Nav extends React.Component{
 
             <menu className={menuClass}>
             <ul className={`menu-links ${menuClass}`}>
-                    <li>  Services </li>
+                    <li>  Services </li> 
+                    <br></br>
                     <li>  Portfolio  </li>
+                    <br></br>
                     <li>  About  </li>
+                    <br></br>
                     <li> Team  </li>
+                    <br></br>
                     <li>  Contact </li> 
                 </ul>
             </menu>
